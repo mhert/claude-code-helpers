@@ -6,7 +6,7 @@ description: >-
   changes, classifies the change type, determines scope, and produces a message that explains WHY the change was made.
   Triggers on "commit", "write a commit message", "stage and commit", "/git-commit", or any request to create a git
   commit.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # git-commit
@@ -416,3 +416,7 @@ Before finalizing any commit sequence:
 - Staged changes appear incomplete (e.g., new function added but never called).
 
 ## Related skills
+
+- **`open-pr`** (sibling skill in this repo) — After the commits land, this skill pushes the branch and opens a pull
+  request with a body filled from the repo's PR template (or a shipped fallback). Natural successor when the work is
+  complete on a feature branch.
