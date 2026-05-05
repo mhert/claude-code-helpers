@@ -2,7 +2,7 @@
 name: open-pr
 description: Use when a fix or change has been committed locally to a feature branch and a pull request needs to be
   opened on GitHub. Triggers on "open PR", "create pull request", "push and open PR", "open fix PR".
-version: 1.0.0
+version: 1.0.1
 ---
 
 # open-pr
