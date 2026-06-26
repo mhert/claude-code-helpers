@@ -18,8 +18,8 @@ The README is the human-facing entry point; keep it in sync when adding or renam
 
 - **Always increase the skill `version:` field on every change to a `SKILL.md`** (or its files). Use semantic
   versioning. New skills start at `1.0.0`. Skills without a version field need one added.
-- **Always run `/validate-skill` after updating a skill** (the SKILL.md or any of its files). Treat validation
-  failures as blockers — fix and re-validate before considering the change done.
+- **Always run `/validate-skill` after updating a skill** Treat validation failures as blockers — fix and re-validate 
+  before considering the change done. Always dispatch an Agent for validation
 - **Hard-wrap all markdown at 120 characters.** Applies to all markdown files. Code fences   and tables are exempt where
 - wrapping would break rendering, but keep prose lines under the limit.
 - **No references to actual projects.** Skills, templates, and examples in this repo must stay generic — no real
